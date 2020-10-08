@@ -1,2 +1,4 @@
 sample:
  property: test
+server:
+ beneficioDescuentoURL: http://localhost:8081/v2/beneficios/descuentos/clientePlanilla
