@@ -2,3 +2,6 @@ sample:
  property: BeneficioDescuento
 server:
  promocionURL: http://poc-promocion:8080/api/v1/Comercios/
+ clienteURL1: http://ef78810566a5.ngrok.io/credit-charge-card/sd-reference-id/credit-charge-card-fulfilment-arrangement/
+ clienteURL2: http://ef78810566a5.ngrok.io/customer-reference-data-management/sd-reference-id/customer-reference-data-directory-entry/
+ clienteURL3: http://ef78810566a5.ngrok.io/party-data-management/sd-reference-id/party-directory-entry/6105078
