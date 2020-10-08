@@ -1,0 +1,4 @@
+sample:
+ property: BeneficioDescuento
+server:
+ promocionURL: http://localhost:8084
