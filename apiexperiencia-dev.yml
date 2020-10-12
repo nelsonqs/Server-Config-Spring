@@ -1,4 +1,9 @@
+tracing:
+  jaeger:
+    enabled: true
+    sampler:
+      probability: 1
 sample:
  property: test
 server:
- beneficioDescuentoURL: http://poc-beneficio:8081/v2/beneficios/descuentos/clientePlanilla
+ beneficioDescuentoURL: http://localhost:8081/beneficios/descuentos/clientePlanilla
