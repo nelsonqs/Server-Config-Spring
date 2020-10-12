@@ -1,7 +1,7 @@
 # TRACING-settings
 opentracing:
   jaeger:
-    service-name: AppB
+    service-name: beneficiodescuento
     enabled: TRUE
     udp-sender:
       host: localhost
