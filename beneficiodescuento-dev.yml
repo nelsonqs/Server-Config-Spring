@@ -1,8 +1,10 @@
-tracing:
+# TRACING-settings
+opentracing:
   jaeger:
-    enabled: true
-    sampler:
-      probability: 1
+    service-name: AppB
+    enabled: TRUE
+    udp-sender:
+      host: localhost
 sample:
  property: BeneficioDescuento
 server:
