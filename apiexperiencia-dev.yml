@@ -4,7 +4,7 @@ opentracing:
     service-name: AppB
     enabled: TRUE
     udp-sender:
-      host: jaeger-agent-host
+      host: localhost
 sample:
  property: test
 server:
