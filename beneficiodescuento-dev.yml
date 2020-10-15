@@ -14,7 +14,7 @@ logging:
 sample:
  property: BeneficioDescuento
 server:
- promocionURL: http://poc-promocion:4040/api/v1/Comercios/
+ promocionURL: http://poc-promocion:4040/api/v1/comercios/
  clienteURL1: http://localhost:7777/credit-charge-card/sd-reference-id/credit-charge-card-fulfilment-arrangement/
  clienteURL2: http://localhost:7777/customer-reference-data-management/sd-reference-id/customer-reference-data-directory-entry/
  clienteURL3: http://ef78810566a5.ngrok.io/party-data-management/sd-reference-id/party-directory-entry/6105078
