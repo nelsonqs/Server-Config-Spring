@@ -7,9 +7,6 @@ opentracing:
 spring:
   application:
     name: beneficiodescuento
-logging:
-  level:
-    io.opentracing: DEBUG
     
 sample:
  property: BeneficioDescuento
