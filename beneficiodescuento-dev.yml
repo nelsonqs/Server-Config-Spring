@@ -2,14 +2,11 @@ opentracing:
   jaeger:
     http-sender:
       url: http://localhost:14268/api/traces
-      #url: http://${JAEGER_HOST}:14268/api/traces
-    #enable-b3-propagation: true
+
 spring:
   application:
     name: beneficiodescuento
     
-sample:
- property: BeneficioDescuento
 server:
  promocionURL: http://poc-promocion:4040/api/v1/comercios/
  clienteURL1: http://localhost:7777/credit-charge-card/sd-reference-id/credit-charge-card-fulfilment-arrangement/
