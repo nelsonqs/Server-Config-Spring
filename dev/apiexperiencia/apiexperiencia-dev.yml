@@ -5,3 +5,15 @@ spring:
     
 server:
  beneficioDescuentoURL: http://localhost:8081/beneficios/descuentos/clientePlanilla
+ 
+ server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:config/,classpath:config/jager.yml
