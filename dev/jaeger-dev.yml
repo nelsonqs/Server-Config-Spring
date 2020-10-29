@@ -1,4 +1,4 @@
 opentracing:
   jaeger:
     http-sender:
-      url: http://localhost:14261/api/tracess
+      url: http://localhost:14261/api/traces
