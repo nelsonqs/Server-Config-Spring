@@ -2,7 +2,7 @@
 opentracing:
   jaeger:
     http-sender:
-      url: http://localhost:14268/apitraces
+      url: http://localhost:14268/api/traces
       
 spring:
   application:
