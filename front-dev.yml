@@ -1,2 +1,4 @@
 test:
  example: true
+ 
+ jaeger: http://localhost:8888/jaeger-dev.json
