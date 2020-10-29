@@ -1,4 +1,9 @@
-   
+
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://localhost:14268/apitraces
+      
 spring:
   application:
     name: apiexperiencia
