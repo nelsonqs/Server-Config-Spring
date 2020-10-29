@@ -4,4 +4,4 @@ spring:
     name: apiexperiencia
     
 server:
- beneficioDescuentoURL: http://localhost:8081/beneficios/descuentos/clientePlanilla
+ beneficioDescuentoURL: http://localhost:8081/beneficios/descuentos/clientePlanillas
