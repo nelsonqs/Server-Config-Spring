@@ -1,5 +1,5 @@
 server:
- port: 8081
+ port: text
  promocionURL: http://poc-promocion:4040/api/v1/comercios/
  clienteURL1: http://localhost:7777/credit-charge-card/sd-reference-id/credit-charge-card-fulfilment-arrangement/
  clienteURL2: http://localhost:7777/customer-reference-data-management/sd-reference-id/customer-reference-data-directory-entry/
