@@ -11,4 +11,4 @@ opentracing:
 
 spring:
   profiles:
-    active: qa
+    active: dev
