@@ -7,4 +7,4 @@ server:
 opentracing:
   jaeger:
     http-sender:
-      url: http://localhost:5778/api/traces
+      url: http://localhost:5778
