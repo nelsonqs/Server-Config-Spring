@@ -1,6 +1,6 @@
 server:
  port: 8082
- beneficioDescuentoURL: http://localhost:8081/beneficios/descuentos/clientePlanilla
+ beneficioDescuentoURL: http://localhostt:8081/beneficios/descuentos/clientePlanilla
 
 opentracing:
   jaeger:
