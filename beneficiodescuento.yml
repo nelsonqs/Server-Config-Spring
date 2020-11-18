@@ -6,6 +6,5 @@ server:
  
 opentracing:
   jaeger:
-    udp-sender:
-      host: localhost
-      port: 6831
+    http-sender:
+      url: http://localhost:14268/api/traces
