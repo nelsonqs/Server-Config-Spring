@@ -2,3 +2,8 @@ spring:
   data:
     mongodb:
       uri: mongodb://poc-mongo:27017/test
+      
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://192.168.1.208:14268/api/traces
