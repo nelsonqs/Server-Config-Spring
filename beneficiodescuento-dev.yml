@@ -8,4 +8,4 @@ opentracing:
   jaeger:
     udp-sender:
       host: localhost
-      port: 6832
+      port: 6831
