@@ -3,5 +3,8 @@
 folderPath:
   property: test
 
+secret:
+ password: '{cipher}AQAzEC0+QCKNDmCBYfxgo2IRYQXfGomTA3DMdUoqbRLABd3CPcnMXGdYwWipXFx4O1UZ//pM+jDnNpx6Ll4cYL3T/IOM9MF65X6N4KtNYZqsy33U18UWVoSYS0QB/TavEIIH3++hfWruN1e6MPYVhAkTn/yK3T8FsIcemzrCGrg9nfU9YQtmRu+ll5/uHWTvz7PKOadzDLWc47t4+viCxoouG8EwZA9Epi5WLlS/6vMJLfefrF6IvaGX6KUE2cNoc9HpZtwKlyGDB7Yp8Aj6PGivuIRUSxfzBgCBEBKr69pRsk0txlEQRzzxv5lJ4BGc8+/jxtBsCnleUfs8Ar9IrpnXsMraVBSvt/sKfU0CcTPxy33AW0mE9XSalZr4RxZwT2Y='
+ 
 url:
   cliente: http://test
