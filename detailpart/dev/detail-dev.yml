@@ -3,6 +3,4 @@ spring:
     exclude: org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: test
+      uri: mongodb+srv://db-bian:bisa1234@cluster0.ogiha.mongodb.net/bian-db?retryWrites=true&w=majority
