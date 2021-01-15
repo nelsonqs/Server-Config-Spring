@@ -1,0 +1,17 @@
+  
+spring:
+#   autoconfigure:
+#     exclude: org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      uri: mongodb+srv://db-bian:bisa1234@cluster0.ogiha.mongodb.net/bian-db?retryWrites=true&w=majority
+
+axon:
+ event:
+  store:
+   database: sessionDialogDataEventStoreEnv
+ uri:
+  mongo: mongodb+srv://db-bian:bisa1234@cluster0.ogiha.mongodb.net/partyReferenceDataEventStoreEnv?retryWrites=true&w=majority
+
+error:
+  package: com.bisa.sessiondialog.partyreferencedatacommand
