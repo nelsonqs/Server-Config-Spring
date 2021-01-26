@@ -1,0 +1,2 @@
+server:
+ blackListURL: http://localhost:8081/
