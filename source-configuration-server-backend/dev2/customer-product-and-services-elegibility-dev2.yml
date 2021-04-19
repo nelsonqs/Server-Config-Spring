@@ -1,0 +1,36 @@
+elasticsearchURL: http://10.42.1.84:9200
+elasticsearchUser: elastic
+elasticsearchPass: changeme
+coreValidatorURL: http://173.20.218.10:30024
+index: filebeat-7.10.0-2021.03.03-000001
+restTemplateTimeout: 10000
+#   Config Mongo
+mongo.username: admin
+mongo.password: 1234
+mongo.database: admin
+mongo.host: localhost
+mongo.port: 27017
+mongo.connectionTimeoutMS: 30000
+mongo.socketTimeoutMS: 60000
+mongo.authSource: admin
+mongo.w: majority
+mongo.retryWrites: true
+#  spring
+spring:
+  #   autoconfigure:
+  #     exclude: org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  cloud:
+    bus:
+      enabled: true
+      id: ${vcap.application.name:${spring.application.name:application}}:${vcap.application.instance_index:${spring.profiles.active:${local.server.port:${server.port:0}}}}:${vcap.application.instance_id:${random.value}}
+      refresh:
+        enabled: true 
+axon:
+  event:
+    store:
+      database: partyReferenceDataEventStoreEnv
+  uri:
+    mongo: mongodb://admin:mongoPassword@10.42.1.93:27017/db_bian?authSource=admin&w=majority&retryWrites=true
+
+error:
+  package: com.bisa.partyreferencedatadirectory.partyreferencedatacommand
