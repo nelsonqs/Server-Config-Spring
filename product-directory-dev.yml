@@ -1,6 +1,6 @@
 mongo.username: admin
 mongo.password: mongoPassword
-mongo.database: db_bian
+mongo.database: admin
 mongo.host: 172.20.218.10
 mongo.port: 30044
 mongo.connectionTimeoutMS: 30000
