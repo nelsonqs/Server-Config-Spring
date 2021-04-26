@@ -6,10 +6,10 @@ index: filebeat-7.10.0-2021.03.03-000001
 restTemplateTimeout: 10000
 #   Config Mongo
 mongo.username: admin
-mongo.password: 1234
-mongo.database: admin
-mongo.host: localhost
-mongo.port: 27017
+mongo.password: mongoPassword
+mongo.database: db_bian
+mongo.host: 172.20.218.10
+mongo.port: 30044
 mongo.connectionTimeoutMS: 30000
 mongo.socketTimeoutMS: 60000
 mongo.authSource: admin
