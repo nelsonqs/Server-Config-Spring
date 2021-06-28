@@ -1,0 +1,2 @@
+server:
+  clientCoreValidator: http://172.20.218.10:30027/
