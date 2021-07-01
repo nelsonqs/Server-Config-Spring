@@ -1,0 +1,31 @@
+mongo.username: admin
+mongo.password: 1234
+mongo.database: admin
+mongo.host: localhost
+mongo.port: 27017
+mongo.connectionTimeoutMS: 30000
+mongo.socketTimeoutMS: 60000
+mongo.authSource: admin
+mongo.w: majority
+mongo.retryWrites: true
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: TestingPassword1
+    url: jdbc:sqlserver://172.20.218.10:30023;databaseName=B10C16BP;prompt=false
+    username: sa
+    hikari:
+      connection-timeout: 7000
+  cloud:
+    bus:
+      enabled: true
+      id: ${vcap.application.name:${spring.application.name:application}}:${vcap.application.instance_index:${spring.profiles.active:${local.server.port:${server.port:0}}}}:${vcap.application.instance_id:${random.value}}
+      refresh:
+        enabled: true
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+        ddl-auto: none
