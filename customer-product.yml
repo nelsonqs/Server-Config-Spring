@@ -1,2 +1,2 @@
-clientCoreValidator: http://localhost:8080/
+clientCoreValidator: http://localhost:8080
 restTemplateTimeout: 120000
