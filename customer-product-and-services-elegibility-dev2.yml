@@ -8,8 +8,8 @@ restTemplateTimeout: 120000
 mongo.username: admin
 mongo.password: mongoPassword
 mongo.database: db_bian
-mongo.host: 10.42.1.167
-mongo.port: 27017
+mongo.host: 172.20.218.10
+mongo.port: 30044
 mongo.connectionTimeoutMS: 30000
 mongo.socketTimeoutMS: 60000
 mongo.authSource: admin
