@@ -19,7 +19,7 @@ coreValidatorURLMock: http://172.20.218.10:30039
 customerURL: http://172.30.102.21:30056
 customerProductURL: http://172.30.102.21:30057
 productDirectoryURL: http://172.20.218.10:30038/product-directory/product/
-mailServiceURL: http://172.30.102.21:30058
+mailServiceURL: http://172.30.102.21:30058/notificator/send-email/
 userMail: atulado@grupobisa.com
 smtpHost: 172.20.102.30
 smtpPort: 25
