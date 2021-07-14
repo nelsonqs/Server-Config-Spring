@@ -20,10 +20,10 @@ customerURL: http://172.30.102.21:30056
 customerProductURL: http://172.30.102.21:30057
 productDirectoryURL: http://172.20.218.10:30038/product-directory/product/
 userMail: atulado@grupobisa.com
-smtpHost: SMTP_HOST
-smtpPort: SMTP_PORT
-ccMail:  banco.ti.creditoenlinea@grupobisa.com
-linkMail: http://##
+smtpHost: 172.20.102.30
+smtpPort: 25
+ccMail:  nrquispe@grupobisa.com
+linkMail: http://z0pbirs01.grupobisa.net/Reports/powerbi/Gestion%20de%20Operaciones/Cartera/ResumenEjecutivoTcDigital?rs:embed=true
 attachment: false
 retryMail: 3
 retryTimeMail: 0 0 8,14 * * *
